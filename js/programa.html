@@ -1,0 +1,64 @@
+<meta charset="UTF-8">
+
+<script>
+    // alert("A idade do Flvio é "); 
+
+    var puloDeLinha = ("<br>")
+    var ano = 2024;
+    var idadeElizabeth = ano - 1987;
+    var idadeLuizMiguel = ano - 2003;
+    var media = Math.round((idadeElizabeth + idadeLuizMiguel) / 2);
+
+
+    function pularLinha(numeroDeLinhas) {
+        for (i = 0; i <= numeroDeLinhas; i++) {
+            document.write(puloDeLinha);
+        }
+    }
+    function mostra(texto){
+        document.write("Ola" + texto);
+        pularLinha(1);
+    
+    };
+    function somaDoisNumeros() {
+
+        document.write(10 + 20);
+    }
+
+    function multiplicaDoisNumeros() {
+
+        document.write(10 * 20);
+    }
+
+    function divideDoisNumeros() {
+        document.write(10 / 20);
+    }
+
+
+
+
+    document.write("A idade do Flavio é");
+    pularLinha(2);
+    document.write(18 + 20);
+    pularLinha(2);
+    document.write("Flavio nasceu em " + (2016 - 38));
+    pularLinha(2);
+    document.write("A media das idades é: ");
+    document.write((20 + 18 + 39) / 3);
+    pularLinha(2);
+    mostra("Luiz Miguel tem " + idadeLuizMiguel);
+    mostra("Elizabeth tem " + idadeElizabeth);
+    document.write("A media das idades é: " + media);
+    pularLinha(5);
+
+
+    
+
+    
+
+
+
+
+
+
+</script>
